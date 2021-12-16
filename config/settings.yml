@@ -15,3 +15,7 @@ gravatar: "https://gravatar.com/emails"
 avatar_size: 50
 item_in_page: 20
 hours_expired: 2
+content_maximum: 140
+image_types: "image/jpeg,image/gif,image/png"
+max_image_size: 5
+resize_images: 500

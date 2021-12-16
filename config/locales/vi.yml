@@ -16,6 +16,8 @@ vi:
   new_user: "Người dùng mới?"
   remember: "Ghi nhớ đăng nhập"
   please_log_in: "Xin vui lòng đăng nhập !"
+  invalid_format: "phải là một định dạng hình ảnh hợp lệ"
+  large_size: "phải nhỏ hơn 5MB"
   header:
     home: "Trang chủ"
     help: "Trợ giúp"
@@ -35,6 +37,7 @@ vi:
       content: "Đây là trang chủ cho %{link} ứng dụng mẫu"
       wellcome: "Chào bạn đến với Sample App"
       signup_now: "Tham gia ngay!"
+      mf: "Nguồn cấp dữ liệu vi mô"
     contact:
       content: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại %{link_rails_contact}"
     help:
@@ -45,7 +48,12 @@ vi:
       book: "Sách"
       rails: "Ruby on Rails"
       learn_enough: "Học đủ"
+  error:
+      error_valid: "Hiện đang có %{error}"
+      error: "lỗi"
   users:
+    show:
+      micropost: "Bài viết"
     index:
       title: "Tất cả người dùng"
     new:
@@ -70,6 +78,13 @@ vi:
     delete_fail: "Xoá không thành công !"
     delete: "Xoá"
     you_sure: "Bạn chắc chắn?"
+  shared:
+    micropost_form:
+      submit: "Bài đăng"
+      placeholder: "Soạn bài vi mô mới ..."
+    user_info:
+      view: "Xem hồ sơ của tôi"
+      micropost: "Bài viết"
   session:
     email: "Địa chỉ email"
     password: "Mật khẩu"
@@ -80,7 +95,7 @@ vi:
     greet: "Xin chào"
     welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
     info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
-    success: "Đã kích hoạt tài khoản thành công !"
+    success: "Vui lòng kiểm tra Email để kích hoạt tài khoản !"
     active: "Kích hoạt"
     message: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
   user_mailer:
@@ -90,7 +105,7 @@ vi:
       link: "Đặt lại mật khẩu"
       content1: "Liên kết này sẽ hết hạn sau hai giờ"
       content2: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
-password_resets:
+  password_resets:
     new:
       title: "Quên mật khẩu"
       submit: "Xác nhận"
@@ -107,3 +122,15 @@ password_resets:
       success: "Mật khẩu đã được đặt lại"
     check_expiration:
       expired: "Đặt lại mật khẩu đã hết hạn"
+  microposts:
+    micropost:
+      post: "Đăng %{time} trước."
+      sure: "Bạn có chắc chắn không?"
+      delete: "Xóa"
+    create:
+      success: "Micropost created!"
+    destroy:
+      success: "Micropost deleted"
+      fail: "Deleted fail"
+    correct_user:
+      invalid: "Micropost invalid"

@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :logged_in_user, except: %i(new create)
-  before_action :load_user, except: %i(index new)
+  before_action :load_user, except: %i(index new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @pagy, @users = pagy(User.all, items: Settings.item_in_page)
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts, items: Settings.item_in_page
+  end
 
   def new
     @user = User.new
@@ -52,6 +54,10 @@ class UsersController < ApplicationController
     params.require(:user).permit User::PROPERTIES
   end
 
+  def admin_user
+    redirect_to root_url unless current_user.admin?
+  end
+
   def logged_in_user
     return if logged_in?
 
@@ -63,10 +69,6 @@ class UsersController < ApplicationController
   def correct_user
     @user = User.find params[:id]
     redirect_to root_url unless current_user? @user
-  end
-
-  def admin_user
-    redirect_to root_url unless current_user.admin?
   end
 
   def load_user
