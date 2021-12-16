@@ -4,6 +4,6 @@
   <h2>
     <%= sanitize t(".content", link: link_to(t("tutorial"), Settings.rails_tutorial)) %>
   </h2>
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to t("static_pages.signup_now"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
-<%= link_to image_tag("download.jpeg", alt: "Rails logo", width: "200px"), Settings.rail %>
+<%= link_to image_tag("download.jpeg", alt: "Rails logo"), Settings.rail %>
