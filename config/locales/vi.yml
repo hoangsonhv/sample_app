@@ -6,8 +6,11 @@ vi:
   by: "bởi"
   help_pages: "Trang hỗ trợ Rails Tutorial"
   book: "Sách hướng dẫn Ruby on Rails"
-  vie: "Việt Nam"
+  vie: "Tiếng Việt"
   eng: "Tiếng Anh"
+  success: "Bạn đã đăng ký thành công !"
+  danger: "Đã xảy ra lỗi !"
+  error: "Biểu mẫu chứa "
   header:
     home: "Trang chủ"
     help: "Trợ giúp"
@@ -36,5 +39,11 @@ vi:
       learn_enough: "Learn Enough"
   users:
     new:
+      name: "Tên"
+      email: "Địa chỉ Email"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+      button: "Tạo mới"
       signup: "Đăng ký"
       content: "Đây là trang đăng ký cho người dùng mới"
+      danger: "Đã xảy ra lỗi !"

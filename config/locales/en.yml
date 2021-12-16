@@ -8,6 +8,9 @@ en:
   book: "Ruby on Rails Tutorial book"
   vie: "Vietnamese"
   eng: "English"
+  success: "You have successfully registered !"
+  danger: "Error! An error occurred. Please try again later !"
+  error: "The form contains "
   header:
     home: "Home"
     help: "Help"
@@ -35,6 +38,12 @@ en:
       rails: "Ruby on Rails"
       learn_enough: "Learn Enough"
   users:
-      new:
-        signup: "Sign up"
-        content: "This will be a signup page for new users."
+    new:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "password_confirmation"
+      button: "Create my account"
+      signup: "Sign up"
+      content: "This will be a signup page for new users."
+      danger: "Error! An error occurred. Please try again later !"
