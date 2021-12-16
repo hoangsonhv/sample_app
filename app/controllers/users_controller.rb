@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @pagy, @users = pagy(User.all, items: Settings.item_in_page)
+    @pagy, @users = pagy User.all, items: Settings.item_in_page
   end
 
   def show

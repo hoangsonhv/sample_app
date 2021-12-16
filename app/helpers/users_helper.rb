@@ -10,4 +10,8 @@ module UsersHelper
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
     redirect_to user
   end
+
+  def get_follower user
+    current_user.active_relationships.find_by followed_id: user.id
+  end
 end
