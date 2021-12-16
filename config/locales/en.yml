@@ -74,6 +74,7 @@ en:
     email: "Email"
     password: "Password"
     danger: "Error! An error occurred. Please try again later !"
+    forgot_password: "Forgot Password"
   mail:
     subject: "Account activation"
     greet: "Hi"
@@ -82,3 +83,27 @@ en:
     success: "Account has been activated successfully!"
     active: "Activate"
     message: "Account not activated. Check your email for the activation link."
+  user_mailer:
+    password_reset:
+      title: "Password reset"
+      p: "To reset your password click the link below:"
+      link: "Reset password"
+      content1: "This link will expire in two hours"
+      content2: "If you did not request your password to be reset, please ignore this email and your password will stay as it is"
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+    edit:
+      title: "Reset password"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Update password"
+    create:
+      success: "Email sent with password reset instructions"
+      fail: "Email address not found"
+    update:
+      error: "can't be empty"
+      success: "Password has been reset"
+    check_expiration:
+      expired: "Password reset has expired"

@@ -74,6 +74,7 @@ vi:
     email: "Địa chỉ email"
     password: "Mật khẩu"
     danger: "Đã xảy ra lỗi !"
+    forgot_password: "Quên mật khẩu"
   mail:
     subject: "Kích hoạt tài khoản"
     greet: "Xin chào"
@@ -82,3 +83,27 @@ vi:
     success: "Đã kích hoạt tài khoản thành công !"
     active: "Kích hoạt"
     message: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+  user_mailer:
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      p: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      link: "Đặt lại mật khẩu"
+      content1: "Liên kết này sẽ hết hạn sau hai giờ"
+      content2: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit: "Xác nhận"
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận"
+      submit: "Cập nhật mật khẩu"
+    create:
+      success: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      fail: "Không tìm thấy địa chỉ email"
+    update:
+      error: "Không thể trống"
+      success: "Mật khẩu đã được đặt lại"
+    check_expiration:
+      expired: "Đặt lại mật khẩu đã hết hạn"
