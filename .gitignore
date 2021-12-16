@@ -53,4 +53,5 @@ config/environments/*.local.yml
 
 /spec
 /log/*
+/log/test.log
 !/log/.keep

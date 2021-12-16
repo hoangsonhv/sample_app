@@ -7,3 +7,269 @@
   [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
   [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
   [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (389.6ms)[0m  [1m[35mCREATE DATABASE `sample_app-1` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (389.6ms)[0m  [1m[35mCREATE DATABASE `sample_app-3` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (522.8ms)[0m  [1m[35mCREATE DATABASE `sample_app-2` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (522.7ms)[0m  [1m[35mCREATE DATABASE `sample_app-0` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (177.2ms)[0m  [1m[35mDROP TABLE IF EXISTS `users` CASCADE[0m
+  [1m[35m (177.2ms)[0m  [1m[35mDROP TABLE IF EXISTS `users` CASCADE[0m
+  [1m[35m (135.9ms)[0m  [1m[35mDROP TABLE IF EXISTS `users` CASCADE[0m
+  [1m[35m (135.6ms)[0m  [1m[35mDROP TABLE IF EXISTS `users` CASCADE[0m
+  [1m[35m (1173.9ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, `password_digest` varchar(255)) DEFAULT CHARSET=utf8mb3[0m
+  [1m[35m (1301.3ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, `password_digest` varchar(255)) DEFAULT CHARSET=utf8mb3[0m
+  [1m[35m (1547.2ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, `password_digest` varchar(255)) DEFAULT CHARSET=utf8mb3[0m
+  [1m[35m (1899.6ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, `password_digest` varchar(255)) DEFAULT CHARSET=utf8mb3[0m
+  [1m[35m (1208.9ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (1184.7ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (210.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES (20211220083516)[0m
+  [1m[35m (211.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES (20211220083516)[0m
+  [1m[35m (1159.7ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (172.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES
+(20211220074122),
+(20211220082846);
+
+[0m
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (1075.0ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (196.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES
+(20211220074122),
+(20211220082846);
+
+[0m
+  [1m[35m (187.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES (20211220083516)[0m
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (195.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES
+(20211220074122),
+(20211220082846);
+
+[0m
+  [1m[35m (307.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES (20211220083516)[0m
+  [1m[35m (245.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES
+(20211220074122),
+(20211220082846);
+
+[0m
+  [1m[35m (1075.9ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'test', '2021-12-23 02:14:49.896325', '2021-12-23 02:14:49.896325')[0m
+  [1m[36mTRANSACTION (135.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('schema_sha1', '288675e1d60abc149a043956bb927fb4e0151c4a', '2021-12-23 02:14:50.037226', '2021-12-23 02:14:50.037226')[0m
+  [1m[36mTRANSACTION (241.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1076.5ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'test', '2021-12-23 02:14:50.287028', '2021-12-23 02:14:50.287028')[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.9ms)[0m  [1m[31mDELETE FROM `users`;
+INSERT INTO `users` (`id`, `name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES (980190962, 'MyString', 'MyString', '2021-12-23 02:14:50.334141', '2021-12-23 02:14:50.334141', DEFAULT), (298486374, 'MyString', 'MyString', '2021-12-23 02:14:50.334141', '2021-12-23 02:14:50.334141', DEFAULT)[0m
+  [1m[36mTRANSACTION (199.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1480.8ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('schema_sha1', '288675e1d60abc149a043956bb927fb4e0151c4a', '2021-12-23 02:14:50.492599', '2021-12-23 02:14:50.492599')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'test', '2021-12-23 02:14:50.497534', '2021-12-23 02:14:50.497534')[0m
+  [1m[36mTRANSACTION (193.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+UsersLoginTest: test_login_with_invalid_information
+---------------------------------------------------
+  [1m[35m (1147.5ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'test', '2021-12-23 02:14:50.727339', '2021-12-23 02:14:50.727339')[0m
+  [1m[36mTRANSACTION (285.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (279.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.8ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('schema_sha1', '288675e1d60abc149a043956bb927fb4e0151c4a', '2021-12-23 02:14:50.791553', '2021-12-23 02:14:50.791553')[0m
+  [1m[36mTRANSACTION (241.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('schema_sha1', '288675e1d60abc149a043956bb927fb4e0151c4a', '2021-12-23 02:14:50.982551', '2021-12-23 02:14:50.982551')[0m
+  [1m[36mTRANSACTION (296.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (176.8ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/login" for 127.0.0.1 at 2021-12-23 09:14:51 +0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 70.4ms | Allocations: 1285)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js:93
+				throw err;
+				^
+
+Error: Cannot find module '@rails/webpacker'
+Require stack:
+- /home/son/environment/sample_app1/sample_app/config/webpack/environment.js
+- /home/son/environment/sample_app1/sample_app/config/webpack/development.js
+- /home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js
+- /home/son/environment/sample_app1/sample_app/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/home/son/environment/sample_app1/sample_app/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/home/son/environment/sample_app1/sample_app/config/webpack/environment.js:1:87)
+    at Module._compile (/home/son/environment/sample_app1/sample_app/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/home/son/environment/sample_app1/sample_app/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/home/son/environment/sample_app1/sample_app/config/webpack/development.js:3:21)
+    at Module._compile (/home/son/environment/sample_app1/sample_app/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/home/son/environment/sample_app1/sample_app/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at WEBPACK_OPTIONS (/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js:114:13)
+    at requireConfig (/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js:116:6)
+    at /home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js:123:17
+    at Array.forEach (<anonymous>)
+    at module.exports (/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js:121:15)
+    at /home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js:71:45
+    at Object.parse (/home/son/environment/sample_app1/sample_app/node_modules/yargs/yargs.js:576:18)
+    at /home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js:49:8
+    at Object.<anonymous> (/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js:366:3)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/son/environment/sample_app1/sample_app/config/webpack/environment.js',
+    '/home/son/environment/sample_app1/sample_app/config/webpack/development.js',
+    '/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js',
+    '/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js',
+    '/home/son/environment/sample_app1/sample_app/node_modules/webpack/bin/webpack.js'
+  ]
+}
+
+  Rendered layouts/_rails_default.html.erb (Duration: 11252.0ms | Allocations: 84306)
+  Rendered layout layouts/application.html.erb (Duration: 11324.9ms | Allocations: 86120)
+Completed 500 Internal Server Error in 11462ms (ActiveRecord: 0.0ms | Allocations: 176610)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (2316.5ms)[0m  [1m[35mTRUNCATE TABLE `users`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM `users`;
+INSERT INTO `users` (`id`, `name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES (980190962, 'MyString', 'MyString', '2021-12-23 02:15:43.993414', '2021-12-23 02:15:43.993414', DEFAULT), (298486374, 'MyString', 'MyString', '2021-12-23 02:15:43.993414', '2021-12-23 02:15:43.993414', DEFAULT)[0m
+  [1m[36mTRANSACTION (527.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+UsersLoginTest: test_login_with_invalid_information
+---------------------------------------------------
+Started GET "/login" for 127.0.0.1 at 2021-12-23 09:15:44 +0700
+  [1m[36mTruncate Tables (2932.0ms)[0m  [1m[35mTRUNCATE TABLE `users`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+Processing by SessionsController#new as HTML
+  [1m[36mTruncate Tables (2954.5ms)[0m  [1m[35mTRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (2954.7ms)[0m  [1m[35mTRUNCATE TABLE `users`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1285)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js:93
+				throw err;
+				^
+
+Error: Cannot find module '@rails/webpacker'
+Require stack:
+- /home/son/environment/sample_app1/sample_app/config/webpack/environment.js
+- /home/son/environment/sample_app1/sample_app/config/webpack/development.js
+- /home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js
+- /home/son/environment/sample_app1/sample_app/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/home/son/environment/sample_app1/sample_app/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/home/son/environment/sample_app1/sample_app/config/webpack/environment.js:1:87)
+    at Module._compile (/home/son/environment/sample_app1/sample_app/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/home/son/environment/sample_app1/sample_app/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/home/son/environment/sample_app1/sample_app/config/webpack/development.js:3:21)
+    at Module._compile (/home/son/environment/sample_app1/sample_app/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/home/son/environment/sample_app1/sample_app/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at WEBPACK_OPTIONS (/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js:114:13)
+    at requireConfig (/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js:116:6)
+    at /home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js:123:17
+    at Array.forEach (<anonymous>)
+    at module.exports (/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js:121:15)
+    at /home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js:71:45
+    at Object.parse (/home/son/environment/sample_app1/sample_app/node_modules/yargs/yargs.js:576:18)
+    at /home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js:49:8
+    at Object.<anonymous> (/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js:366:3)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/son/environment/sample_app1/sample_app/config/webpack/environment.js',
+    '/home/son/environment/sample_app1/sample_app/config/webpack/development.js',
+    '/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/utils/convert-argv.js',
+    '/home/son/environment/sample_app1/sample_app/node_modules/webpack-cli/bin/cli.js',
+    '/home/son/environment/sample_app1/sample_app/node_modules/webpack/bin/webpack.js'
+  ]
+}
+
+  Rendered layouts/_rails_default.html.erb (Duration: 1014.9ms | Allocations: 47458)
+  Rendered layout layouts/application.html.erb (Duration: 1017.8ms | Allocations: 49272)
+Completed 500 Internal Server Error in 1127ms (ActiveRecord: 0.0ms | Allocations: 139239)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
