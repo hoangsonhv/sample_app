@@ -1,4 +1,5 @@
 en:
+  sample_app: "Sample app"
   hello: "Hello world"
   title: "Ruby on Rails Tutorial Sample App"
   author: "Michael Hartl"
@@ -11,12 +12,15 @@ en:
   success: "You have successfully registered !"
   danger: "Error! An error occurred. Please try again later !"
   error: "The form contains "
+  sign_up-now: "Sign up now!"
+  new_user: "New user?"
   header:
     home: "Home"
     help: "Help"
     contact: "Contact"
     signup: "Sign Up"
     login: "Log in"
+    logout: "Log out"
     about: "About"
   footer:
     about: "About"
@@ -34,7 +38,7 @@ en:
     about:
       content: "The %{link_rails_tutorial}, part of the %{link_learn_enough} family of tutorials, is a %{link_rails_book} and %{link_screen_cast} to teach web development with %{link_rails}. This is the sample app for the tutorial."
       screen_cast: "screencast series"
-      book: "book"
+      book: "Book"
       rails: "Ruby on Rails"
       learn_enough: "Learn Enough"
   users:
@@ -47,3 +51,6 @@ en:
       signup: "Sign up"
       content: "This will be a signup page for new users."
       danger: "Error! An error occurred. Please try again later !"
+  session:
+    email: "Email"
+    password: "Password"
