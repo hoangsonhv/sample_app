@@ -8,7 +8,6 @@
 /spec/examples.txt
 /test/tmp/
 /test/version_tmp/
-/tmp/
 /.idea
 /.idea/*
 /node_modules/
@@ -53,5 +52,6 @@ config/environments/*.local.yml
 
 /spec
 /log/*
-/log/test.log
+/tmp/*
 !/log/.keep
+!/tmp/.keep

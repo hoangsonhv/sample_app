@@ -14,6 +14,7 @@ en:
   error: "The form contains "
   sign_up-now: "Sign up now!"
   new_user: "New user?"
+  remember: "Remember me on this computer"
   header:
     home: "Home"
     help: "Help"
@@ -54,3 +55,4 @@ en:
   session:
     email: "Email"
     password: "Password"
+    danger: "Error! An error occurred. Please try again later !"
