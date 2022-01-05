@@ -55,3 +55,5 @@ config/environments/*.local.yml
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+
+/config/application.yml

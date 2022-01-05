@@ -15,6 +15,7 @@ vi:
   sign_up-now: "Đăng ký ngay!"
   new_user: "Người dùng mới?"
   remember: "Ghi nhớ đăng nhập"
+  please_log_in: "Xin vui lòng đăng nhập !"
   header:
     home: "Trang chủ"
     help: "Trợ giúp"
@@ -23,6 +24,8 @@ vi:
     login: "Đăng nhập"
     logout: "Đăng xuất"
     about: "Về chúng tôi"
+    setting: "Cài đặt"
+    acount: "Tài khoản"
   footer:
     about: "Về chúng tôi"
     contact: "Liên lạc"
@@ -41,17 +44,32 @@ vi:
       screen_cast: "screencast"
       book: "Sách"
       rails: "Ruby on Rails"
-      learn_enough: "Learn Enough"
+      learn_enough: "Học đủ"
   users:
+    index:
+      title: "Tất cả người dùng"
     new:
-      name: "Tên"
-      email: "Địa chỉ Email"
-      password: "Mật khẩu"
-      password_confirmation: "Nhập lại mật khẩu"
-      button: "Tạo mới"
+      button: "Tạo tài khoản của tôi"
       signup: "Đăng ký"
       content: "Đây là trang đăng ký cho người dùng mới"
       danger: "Đã xảy ra lỗi !"
+    edit:
+      title: "Chỉnh sửa người dùng"
+      h1: "Cập nhật hồ sơ của bạn"
+      button: "Save change"
+      change: "Thay đổi"
+      success: "Cập nhật thành công !"
+    form:
+      title: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      submit: "Xác nhận"
+    delete_done: "Đã xoá thành công !"
+    delete_fail: "Xoá không thành công !"
+    delete: "Xoá"
+    you_sure: "Bạn chắc chắn?"
   session:
     email: "Địa chỉ email"
     password: "Mật khẩu"

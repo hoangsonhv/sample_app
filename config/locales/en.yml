@@ -15,6 +15,7 @@ en:
   sign_up-now: "Sign up now!"
   new_user: "New user?"
   remember: "Remember me on this computer"
+  please_log_in: "Please log in !"
   header:
     home: "Home"
     help: "Help"
@@ -23,6 +24,8 @@ en:
     login: "Log in"
     logout: "Log out"
     about: "About"
+    setting: "Settings"
+    acount: "Acount"
   footer:
     about: "About"
     contact: "Contact"
@@ -43,15 +46,29 @@ en:
       rails: "Ruby on Rails"
       learn_enough: "Learn Enough"
   users:
+    index:
+      title: "All users"
     new:
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      password_confirmation: "password_confirmation"
       button: "Create my account"
       signup: "Sign up"
       content: "This will be a signup page for new users."
       danger: "Error! An error occurred. Please try again later !"
+    edit:
+      title: "Edit user"
+      h1: "Update your profile"
+      button: "Save change"
+      change: "Change"
+      success: "Update successful !"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      submit: "Submit"
+    delete_done: "Deleted successfully!"
+    delete_fail: "Delete failed!"
+    delete: "delete"
+    you_sure: "You sure?"
   session:
     email: "Email"
     password: "Password"

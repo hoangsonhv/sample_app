@@ -1,0 +1,6 @@
+host: "localhost:3000"
+host_email: "admin@sun-asrerisk.com"
+mail_user_name: "son070697@gmail.com"
+mail_user_password: "htmkgjjbbbeupfoh"
+mail_address: "smtp.gmail.com"
+mail_port: "587"
