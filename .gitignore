@@ -57,3 +57,4 @@ config/environments/*.local.yml
 !/tmp/.keep
 
 /config/application.yml
+/storage
