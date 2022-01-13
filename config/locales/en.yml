@@ -18,6 +18,10 @@ en:
   please_log_in: "Please log in !"
   invalid_format: "must be a valid image format"
   large_size: "should be less than 5MB"
+  following: "Following"
+  followers: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
   header:
     home: "Home"
     help: "Help"
@@ -74,6 +78,10 @@ en:
       password: "Password"
       password_confirmation: "Password confirmation"
       submit: "Submit"
+    show:
+      microposts: "Microposts"
+    show_follow:
+      profile: "view my profile"
     delete_done: "Deleted successfully!"
     delete_fail: "Delete failed!"
     delete: "delete"

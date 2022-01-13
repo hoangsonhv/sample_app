@@ -18,6 +18,10 @@ vi:
   please_log_in: "Xin vui lòng đăng nhập !"
   invalid_format: "phải là một định dạng hình ảnh hợp lệ"
   large_size: "phải nhỏ hơn 5MB"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
+  follow: "Theo đõi"
+  unfollow: "Bỏ theo dõi"
   header:
     home: "Trang chủ"
     help: "Trợ giúp"
@@ -74,6 +78,10 @@ vi:
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
       submit: "Xác nhận"
+    show:
+      microposts: "Các bài đăng"
+    show_follow:
+      profile: "xem hồ sơ của tôi"
     delete_done: "Đã xoá thành công !"
     delete_fail: "Xoá không thành công !"
     delete: "Xoá"
